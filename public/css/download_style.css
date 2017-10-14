@@ -1,0 +1,58 @@
+.btn-home {
+	color: black;
+	background-color: white;
+	border: none;
+}
+
+.name-page {
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*background: black;*/
+}
+
+.btn-contact {
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.header-inner {
+	display: inline-block;
+}
+
+.btn-with-no-outline:focus {
+	outline: none;
+}
+
+.go-home-link {
+	color: black;
+}
+
+.go-home-link:hover {
+	color: black;
+}
+
+.download-view-container {
+	border-radius: 5px; 
+	border-width: 3px; 
+	border-color: green; 
+	border-style: solid;
+	width: 500px;
+}
+
+.file-name {
+	overflow:hidden;
+	text-overflow: ellipsis;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+}
+
+.file-size {
+	font-size: 13px;
+	font-weight: bolder;
+	text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Simple way to share and storage your file
+	</title>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="css/index_style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header-inner">
+			<button type="button" class="btn-home btn-with-no-outline">
+				<a class="go-home-link" href="">
+					<h2 class="name-page" style="font-family: Times New Roman;font-weight: bold">DownUpload</h2>
+				</a>
+			</button>
+		</div>
+		<div class="header-inner btn-contact">
+			<h2>
+				<button type="button" class="btn btn-outline-success" onclick="window.open('https://www.facebook.com/duongngoc2663')">Contact</button>
+			</h2>
+		</div>
+	</div>
+	
+	<div class="container" style="margin-top: 50px">
+		<div class="main-content">
+			<p style="text-align: center;font-size: 40px">Simple way to share and storage your file</p>
+			<div style="text-align: center; margin-top: 70px">
+				<button type="button" class="btn-choose-file-upload btn-with-no-outline">Upload File
+				</button>
+			</div>
+		</div>
+
+		<div class="table-upload" style="margin-top: 50px;display: none;">
+			<table class="table table-run-after-choose-file">
+				<thead>
+					<tr>
+						<th class="th-name-file">Name File</th>
+						<th class="th-progress-loading">Load</th>
+						<th class="th-link-file">Link</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+	
+	<input id="choose-file-upload" name="upload[]" type="file" style="display: none;">
+	
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   	<script type="text/javascript" src="javascripts/upload_file_client.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+
+    
+</body>	
+</html>

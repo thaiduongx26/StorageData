@@ -1,0 +1,61 @@
+.btn-contact {
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.name-page {
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*background: black;*/
+}
+
+.btn-home {
+	color: black;
+	background-color: white;
+	border: none;
+}
+
+.header-inner {
+	display: inline-block;
+}
+
+.btn-with-no-outline:focus {
+	outline: none;
+}
+
+.go-home-link {
+	color: black;
+}
+
+.go-home-link:hover {
+	color: black;
+}
+
+.btn-choose-file-upload {
+	margin: auto;
+	width: 20%;
+	color: white;
+	background-color: green;
+	border: 1px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.btn-outline-success:active {
+	outline: none;
+}
+
+.th-name-file {
+	width: 20%;
+}
+
+.th-progress-loading {
+	width: 40%;
+}
+
+.th-link-file {
+	width: 50%;
+}
